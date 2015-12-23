@@ -21,12 +21,21 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script>
-      var song = new Audio("Gonna-Love-Ya.mp3");
-      song.play();
+        var isMobile = {
+          iOS: function() {
+              return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+          }
+        };
 
-
+        if(isMobile.iOS()) {
+          alert('Hey my little furrball, go open this website on an actual computer!');
+        } else {
+          var song = new Audio("Gonna-Love-Ya.mp3");
+          song.play();
+        }
 
     </script>
+
   </head>
   <body>
     <nav class="navbar navbar-default navbar-static-top">
@@ -42,6 +51,7 @@
 	        <h4 id="intro_jumbo">"I'm gonna love ya, like no one could..."</h4>
 	      </div>
 	  </div>
+
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
