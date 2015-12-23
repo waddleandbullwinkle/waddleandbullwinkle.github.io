@@ -29,4 +29,8 @@ body { padding-top: 10px; }
 
 }
 
-#images { padding:30px; }
+#images {
+  padding:30px;
+  width: 100%;
+  height: auto;
+}
