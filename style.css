@@ -23,11 +23,13 @@ body { padding-top: 10px; }
   background-image:url('pics/IMG_1521.jpg');
   height: 500px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
 }
+
+
 
 #xmas_msg {
 
