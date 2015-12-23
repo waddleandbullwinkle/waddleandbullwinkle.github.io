@@ -1,0 +1,28 @@
+body {
+  padding-top: 10px;
+}
+
+#title {
+	font-family: 'Oleo Script', cursive;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26px;
+  color: black;
+}
+
+#intro_jumbo {
+  font-family: 'Rouge Script', cursive;
+  font-size: 90px;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+}
+
+.jumbotron {
+  background-image:url('pics/IMG_1521.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
