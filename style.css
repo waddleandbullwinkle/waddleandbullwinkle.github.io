@@ -1,6 +1,4 @@
-body {
-  padding-top: 10px;
-}
+body { padding-top: 10px; }
 
 #title {
 	font-family: 'Oleo Script', cursive;
@@ -26,3 +24,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#xmas_msg {
+
+}
+
+#images { padding:30px; }
