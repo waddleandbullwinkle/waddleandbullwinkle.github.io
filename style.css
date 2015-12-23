@@ -12,10 +12,11 @@ body { padding-top: 10px; }
 
 #intro_jumbo {
   font-family: 'Rouge Script', cursive;
-  font-size: 90px;
+  font-size: 10vh;
   font-weight: bolder;
   color: white;
   text-shadow: 3px 3px 3px black;
+
 }
 
 .jumbotron {
@@ -23,6 +24,9 @@ body { padding-top: 10px; }
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 #xmas_msg {
