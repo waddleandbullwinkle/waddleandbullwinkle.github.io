@@ -19,7 +19,7 @@ body { padding-top: 10px; }
 
 }
 
-.jumbotron {
+#about_tab {
   background-image:url('pics/IMG_1521.jpg');
   height: 500px;
   background-repeat: no-repeat;
@@ -29,14 +29,59 @@ body { padding-top: 10px; }
   -o-background-size: cover;
 }
 
+#end_jumbo {
+  font-family: 'Rouge Script', cursive;
+  font-size: 10vh;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 3px 3px 3px black;
 
+}
+
+#end_tab {
+  background-color: white;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#may_jumbo {
+  font-size: 10vh;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+
+}
+
+#may_tab {
+  background-image:url('pics/IMG_1521.jpg');
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
 
 #xmas_msg {
-
+  font-family: 'Rouge Script', cursive;
+  font-size: 4vh;
+  font-weight: bolder;
 }
 
 #images {
   padding:30px;
   width: 100%;
   height: auto;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
