@@ -61,7 +61,7 @@ body { padding-top: 10px; }
 #may_tab {
   background-image:url('pics/polaroid.jpg');
   background-attachment: fixed;
-  height: 400px;
+  height: 800px;
   background-repeat: no-repeat;
   background-size: auto;
   -webkit-background-size: cover;
