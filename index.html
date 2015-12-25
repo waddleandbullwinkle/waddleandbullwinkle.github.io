@@ -32,8 +32,11 @@
           alert("Im Serious! Go open it on a real computer!");
           alert("Open this on your Mac! omg!!");
         } else {
-          var song = new Audio("Gonna-Love-Ya.mp3");
-          song.play();
+          window.addEventListener("load", function () {
+            var song = new Audio("Gonna-Love-Ya.mp3");
+            song.play();
+          }, false);
+
         }
 
     </script>
