@@ -75,6 +75,12 @@ body { padding-top: 10px; }
   font-weight: bolder;
 }
 
+#xmas_msg_sig {
+  font-family: 'Rouge Script', cursive;
+  font-size: 3vh;
+  font-weight: bolder;
+}
+
 #images {
   padding:30px;
   width: 100%;
